@@ -17,7 +17,7 @@ socket.addEventListener('message', (event) => {
 });
 
 socket.addEventListener('close', (event) => {
-    console.log('Connection closed');
+socket.send(a + " : " + "disconnected")
 });
 
 function sendMessage() {
